@@ -1,0 +1,64 @@
+.titulo-segundario {
+  margin-top: 80px;
+  margin-left: 350px;
+}
+
+.Primeira-img {
+  width: 259px;
+}
+
+.Segunda-img {
+  margin-top: 200px;
+  width: 200px;
+  margin-left: 800px;
+}
+
+.primeiro-texto {
+  margin-left: 450px;
+  padding-top: 40px;
+  font-size: 19px;
+}
+
+.experiencia {
+  width: 100%;
+  overflow: hidden;
+}
+
+.Primeira-img {
+  float: left; /* Flutua a imagem para a esquerda */
+  margin-right: 20px;
+}
+
+@media only screen and (max-width: 480px) {
+  .Primeira-img {
+    width: 280px;
+    margin-left: 40px;
+    gap: 20px;
+    padding-top: 15px;
+    border-right: 10px;
+  }
+  .titulo-segundario {
+    font-size: 20px;
+    margin-left: 50px;
+    padding-top: 20px;
+  }
+  .experiencia {
+    width: 100%;
+    overflow: hidden;
+  }
+  .primeiro-texto {
+    max-width: 80%;
+    display: block;
+    text-align: left;
+    margin-right: 170px;
+    float: right;
+    margin-left: 40px;
+  }
+}
+
+
+/* Segundo texto */
+
+.segundo-texto {
+  margin-top: 50px;
+}
